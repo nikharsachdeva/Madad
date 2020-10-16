@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/driver_name_optional"
+            android:textColor="#3C5A99"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+
+
+        <EditText
+            android:id="@+id/enterDriverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/travelling_to"
+            android:textColor="#3C5A99"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+
+
+        <EditText
+            android:id="@+id/enterLocationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/vehicle_number_mandatory"
+            android:textColor="#3C5A99"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+
+
+        <EditText
+            android:id="@+id/enterVehiclePlate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/create_trip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="16dp"
+            android:height="16dp"
+            android:background="@drawable/ripple"
+            android:text="CREATE TRIP"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

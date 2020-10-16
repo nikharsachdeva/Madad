@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Madad</string>
+    <string name="save_list">Save List</string>
+    <string name="name">Name</string>
+    <string name="_8899008910">8899008910</string>
+    <string name="tag_line">अपनी सुरक्षा अपने हाथ,\nतभी सुरक्षा रहेगी साथ ।</string>
+    <string name="create_list">CREATE\nSOS LIST\n-\nआपात सूची\nबनाएँ</string>
+    <string name="view_list">VIEW\nSOS LIST\n-\nअपनी आपात\nसूची देखें</string>
+    <string name="create_trip">CREATE\nTRIP\n-\nयात्रा दर्ज करें</string>
+    <string name="view_trips">VIEW\nPAST TRIPS\n-\nपिछली यात्रा देखें</string>
+    <string name="view_list1">VIEW SOS LIST\nअपनी आपात सूची देखें</string>
+    <string name="long_press_any_item_to_unlock">Long press any item to enter edit mode.\nअनलॉक करने के लिए किसी भी आइटम को लंबे समय तक दबाएं ।</string>
+    <string name="driver_name_optional">DRIVER NAME (OPTIONAL)</string>
+    <string name="vehicle_number_mandatory">VEHICLE NUMBER (MANDATORY)</string>
+    <string name="login">LOGIN</string>
+    <string name="travelling_to">TRAVELLING TO (OPTIONAL)</string>
+
+</resources>
