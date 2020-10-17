@@ -29,6 +29,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 import com.google.gson.Gson;
+import com.nikharsachdeva.madad.model.ContactModel;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -483,8 +484,9 @@ public class TinyDB {
     
     /**
      * Put ObJect any type into SharedPrefrences with 'key' and save
+     * @param obj is the Object you want to put
      * @param key SharedPreferences key
-     * @param obj is the Object you want to put 
+     * @param objArray
      */
 //    public void putObject(String key, Object obj){
 //    	checkForNullKey(key);
@@ -492,7 +494,7 @@ public class TinyDB {
 //    	putString(key, gson.toJson(obj));
 //    }
 //    
-    public void putListObject(String key, ArrayList<Object> objArray){
+    public void putListObject(String key, ArrayList<ContactModel> objArray){
     	checkForNullKey(key);
     	Gson gson = new Gson();
     	ArrayList<String> objStrings = new ArrayList<String>();

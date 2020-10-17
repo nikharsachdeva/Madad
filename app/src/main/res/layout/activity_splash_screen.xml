@@ -21,7 +21,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="@dimen/image_header_top_margin"
         android:elevation="2dp"
-        android:src="@drawable/iconn" />
+        android:src="@drawable/madadlogoc" />
 
     <LinearLayout
         android:layout_width="match_parent"

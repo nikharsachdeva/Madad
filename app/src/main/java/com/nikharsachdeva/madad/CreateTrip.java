@@ -78,7 +78,7 @@ public class CreateTrip extends AppCompatActivity {
 
         if (enterVehiclePlate.getText().toString().length() == 0) {
             allow = false;
-            Toast.makeText(this, "Vehicle Number is Mandatory", Toast.LENGTH_SHORT).show();
+            enterVehiclePlate.setError("Vehicle Number is Mandatory");
         }
 
         return allow;

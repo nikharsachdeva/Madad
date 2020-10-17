@@ -31,16 +31,19 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/con_icon" />
 
-            <RelativeLayout
+            <LinearLayout
                 android:id="@+id/contact_details_rl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="10dp"
-                android:layout_toEndOf="@+id/contact_image">
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@id/delete_item"
+                android:layout_toEndOf="@+id/contact_image"
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/contact_name_view"
+                    android:id="@+id/contact_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_semibold"
@@ -51,13 +54,13 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/contact_name_view"
+                    android:layout_below="@+id/contact_name"
                     android:background="@drawable/mustard_bg"
                     android:orientation="vertical"
                     android:padding="5dp">
 
                     <TextView
-                        android:id="@+id/contact_number_view"
+                        android:id="@+id/contact_number"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
@@ -69,7 +72,18 @@
 
                 </LinearLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/delete_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/bin" />
+
         </RelativeLayout>
 
 
